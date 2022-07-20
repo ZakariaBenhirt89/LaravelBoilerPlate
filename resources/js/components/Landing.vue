@@ -125,52 +125,25 @@
                 <div class="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
                     <div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
                         <div>
-                            <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Serverless</h2>
-                            <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">No server? No problem.</p>
-                            <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.</p>
+                            <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Apply anywhere.</p>
+                            <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Designed to be handy and easy to use. friendly and cross platform.</p>
                         </div>
-                        <div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
-                            <img class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg" alt="" />
+                        <div class="mt-12 mb-5 sm:mb-10 lg:mb-5">
+                            <img class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658330698/Sans_titre_1080_750_px_1080_600_px_prqocj.png" alt="" />
                         </div>
                     </div>
                 </div>
 
                 <!-- Feature section with grid -->
-                <div class="relative bg-white py-16 sm:py-24 lg:py-32">
-                    <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-                        <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Deploy faster</h2>
-                        <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Everything you need to deploy your app</p>
-                        <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.</p>
-                        <div class="mt-12">
-                            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                                <div v-for="feature in features" :key="feature.name" class="pt-6">
-                                    <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                                        <div class="-mt-6">
-                                            <div>
-                        <span class="inline-flex items-center justify-center p-3 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-md shadow-lg">
-                          <component :is="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" />
-                        </span>
-                                            </div>
-                                            <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">{{ feature.name }}</h3>
-                                            <p class="mt-5 text-base text-gray-500">
-                                                {{ feature.description }}
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Testimonial section -->
                 <div class="pb-16 bg-gradient-to-r from-teal-500 to-cyan-600 lg:pb-0 lg:z-10 lg:relative">
                     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
                         <div class="relative lg:-my-8">
-                            <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
-                            <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+                            <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/10 bg-white lg:hidden" />
+                            <div class="mx-auto mt-5 max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full lg:mt-5">
                                 <div class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                                    <img class="object-cover lg:h-full lg:w-full" src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="" />
+                                    <img class="object-cover lg:h-full lg:w-full" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658331761/_104421247_4e68148d-3a67-425c-a885-c4915f06e830_pt9hwk.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -181,11 +154,11 @@
                                         <svg class="h-12 w-12 text-white opacity-25" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                                             <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                                         </svg>
-                                        <p class="mt-6 text-2xl font-medium text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.</p>
+                                        <p class="mt-6 text-2xl font-medium text-white">There is an urgent need to fight climate change, halt ecosystem destruction, and reduce pollution for the benefit of all peoples everywhere. </p>
                                     </div>
                                     <footer class="mt-6">
-                                        <p class="text-base font-medium text-white">Judith Black</p>
-                                        <p class="text-base font-medium text-cyan-100">CEO at PureInsights</p>
+                                        <p class="text-base font-medium text-white">Mr Erik Solheim</p>
+                                        <p class="text-base font-medium text-cyan-100">UN Environment executive director</p>
                                     </footer>
                                 </blockquote>
                             </div>
@@ -199,7 +172,7 @@
                         <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
                             <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Learn</h2>
                             <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Helpful Resources</p>
-                            <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.</p>
+                            <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">some helpful resources to learn about the environment , Citizen Participation and Collaboration.</p>
                         </div>
                         <div class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
                             <div v-for="post in blogPosts" :key="post.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -248,6 +221,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="bg-gradient-to-r from-teal-500 to-cyan-600">
+                    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+                        <h2 class="text-center text-white text-sm font-semibold uppercase tracking-wide">Powered by</h2>
+                        <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-3">
+                            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                                <img class="h-12" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658334153/download_1_bmhtix.png" alt="Tuple" />
+                            </div>
+                            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                                <img class="h-12" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658334153/download_1_bmhtix.png" alt="Mirage" />
+                            </div>
+                            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                                <img class="h-12" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658334226/download_2_lmakea.jpg" alt="StaticKit" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
                 <!-- CTA Section -->
                 <div class="relative bg-gray-900">
@@ -290,45 +280,17 @@
                             <div class="md:grid md:grid-cols-2 md:gap-8">
                                 <div>
                                     <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>
-                                    <ul role="list" class="mt-4 space-y-4">
-                                        <li v-for="item in footerNavigation.solutions" :key="item.name">
-                                            <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">
-                                                {{ item.name }}
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div>
                                 <div class="mt-12 md:mt-0">
                                     <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Support</h3>
-                                    <ul role="list" class="mt-4 space-y-4">
-                                        <li v-for="item in footerNavigation.support" :key="item.name">
-                                            <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">
-                                                {{ item.name }}
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="md:grid md:grid-cols-2 md:gap-8">
                                 <div>
                                     <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Company</h3>
-                                    <ul role="list" class="mt-4 space-y-4">
-                                        <li v-for="item in footerNavigation.company" :key="item.name">
-                                            <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">
-                                                {{ item.name }}
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div>
                                 <div class="mt-12 md:mt-0">
                                     <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
-                                    <ul role="list" class="mt-4 space-y-4">
-                                        <li v-for="item in footerNavigation.legal" :key="item.name">
-                                            <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">
-                                                {{ item.name }}
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
