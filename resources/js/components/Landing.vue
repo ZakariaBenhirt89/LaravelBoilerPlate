@@ -50,7 +50,7 @@
                         </div>
                         <div class="hidden md:flex md:items-center md:space-x-6">
                             <a href="#" class="text-base font-medium text-white hover:text-gray-300"> Log in </a>
-                            <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"> Start free trial </a>
+                            <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"> report anonymously </a>
                         </div>
                     </nav>
                 </div>
@@ -74,7 +74,7 @@
                                     <a v-for="item in navigation" :key="item.name" :href="item.href" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
                                 </div>
                                 <div class="mt-6 px-5">
-                                    <a href="#" class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700">Start free trial</a>
+                                    <a href="#" class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700">report anonymously</a>
                                 </div>
                                 <div class="mt-6 px-5">
                                     <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>
@@ -90,16 +90,12 @@
                         <div class="lg:grid lg:grid-cols-2 lg:gap-8">
                             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                                 <div class="lg:py-24">
-                                    <a href="#" class="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-                                        <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full">We're hiring</span>
-                                        <span class="ml-4 text-sm">Visit our careers page</span>
-                                        <ChevronRightIcon class="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
-                                    </a>
+
                                     <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                                         <span class="block">A better way to</span>
-                                        <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-400 sm:pb-5">ship web apps</span>
+                                        <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-400 sm:pb-5">report your town problems</span>
                                     </h1>
-                                    <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
+                                    <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">ecocitizen is a mobile app and web app that helps you take steps towards being an eco-friendly citizen. With this app, you can easily report environmental violations, such as littering or illegal dumping, and get them fixed. The app also lets you track your carbon footprint and see how your actions affect the environment. With ecocitizen, you can make a positive difference in the world!</p>
                                     <div class="mt-10 sm:mt-12">
                                         <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
                                             <div class="sm:flex">
@@ -108,10 +104,9 @@
                                                     <input id="email" type="email" placeholder="Enter your email" class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900" />
                                                 </div>
                                                 <div class="mt-3 sm:mt-0 sm:ml-3">
-                                                    <button type="submit" class="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">Start free trial</button>
+                                                    <button type="submit" class="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">join out newsletter</button>
                                                 </div>
                                             </div>
-                                            <p class="mt-3 text-sm text-gray-300 sm:mt-4">Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms of service</a>.</p>
                                         </form>
                                     </div>
                                 </div>
@@ -119,7 +114,7 @@
                             <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
                                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                                     <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                                    <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg" alt="" />
+                                    <img class="w-full lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658319499/Sans_titre_2_ynb9v3.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -363,10 +358,9 @@ import {
 import { ChevronRightIcon, ExternalLinkIcon } from '@heroicons/vue/solid'
 
 const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Map', href: '#' },
+    { name: 'Resources', href: '#' },
+    { name: 'About Us', href: '#' },
 ]
 const features = [
     {
