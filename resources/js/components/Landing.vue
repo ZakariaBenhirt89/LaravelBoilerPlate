@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="hidden md:flex md:items-center md:space-x-6">
-                            <a href="#" class="text-base font-medium text-white hover:text-gray-300"> Log in </a>
+                            <a :href="login" class="text-base font-medium text-white hover:text-gray-300"> Log in </a>
                             <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"> report anonymously </a>
                         </div>
                     </nav>
@@ -77,7 +77,7 @@
                                     <a href="#" class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700">report anonymously</a>
                                 </div>
                                 <div class="mt-6 px-5">
-                                    <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>
+                                    <p class="text-center text-base font-medium text-gray-500">Existing customer? <a :href="login" class="text-gray-900 hover:underline">Login</a></p>
                                 </div>
                             </div>
                         </div>
@@ -277,26 +277,11 @@
                             </div>
                         </div>
                         <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-                            <div class="md:grid md:grid-cols-2 md:gap-8">
-                                <div>
-                                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>
-                                </div>
-                                <div class="mt-12 md:mt-0">
-                                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Support</h3>
-                                </div>
-                            </div>
-                            <div class="md:grid md:grid-cols-2 md:gap-8">
-                                <div>
-                                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Company</h3>
-                                </div>
-                                <div class="mt-12 md:mt-0">
-                                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <div class="mt-12 border-t border-gray-200 py-8">
-                        <p class="text-base text-gray-400 xl:text-center">&copy; 2020 Workflow, Inc. All rights reserved.</p>
+                        <p class="text-base text-gray-400 xl:text-center">&copy; 2022 AitOurir Business Center , Inc. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
@@ -525,7 +510,9 @@ export default {
     },
     name: 'Landing',
     setup() {
+        const login = 'http://localhost:8000/login'
         return {
+            login,
             navigation,
             features,
             blogPosts,
