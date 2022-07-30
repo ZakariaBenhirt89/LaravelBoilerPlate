@@ -34,8 +34,8 @@
                         <div class="flex items-center flex-1">
                             <div class="flex items-center justify-between w-full md:w-auto">
                                 <a href="#">
-                                    <span class="sr-only">Workflow</span>
-                                    <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-teal-200-cyan-400.svg" alt="" />
+                                    <span class="sr-only">EcoCitizen</span>
+                                    <img class="h-10 w-auto sm:h-10" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1659209233/imageedit_2_5615906368_1_s5vt2o.svg" alt="" />
                                 </a>
                                 <div class="-mr-2 flex items-center md:hidden">
                                     <PopoverButton class="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
@@ -50,7 +50,7 @@
                         </div>
                         <div class="hidden md:flex md:items-center md:space-x-6">
                             <a :href="login" class="text-base font-medium text-white hover:text-gray-300"> Log in </a>
-                            <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"> report anonymously </a>
+                            <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-green-700"> create account </a>
                         </div>
                     </nav>
                 </div>
@@ -60,7 +60,7 @@
                         <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div class="px-5 pt-4 flex items-center justify-between">
                                 <div>
-                                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-teal-500-cyan-600.svg" alt="" />
+                                    <img class="h-10 w-auto" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/q_100/v1659208099/imageedit_2_5615906368_bdnddl.png" alt="" />
                                 </div>
                                 <div class="-mr-2">
                                     <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
@@ -226,13 +226,13 @@
                         <h2 class="text-center text-white text-sm font-semibold uppercase tracking-wide">Powered by</h2>
                         <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-3">
                             <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                                <img class="h-12" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658334153/download_1_bmhtix.png" alt="Tuple" />
+                                <img class="h-13" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1659209613/stylo_1_lic3al.png" alt="Tuple" />
                             </div>
                             <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                                <img class="h-12" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658334153/download_1_bmhtix.png" alt="Mirage" />
+                                <img class="h-13" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1659209709/stylo_1_1_pstwah.png" alt="Mirage" />
                             </div>
                             <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                                <img class="h-12" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1658334226/download_2_lmakea.jpg" alt="StaticKit" />
+                                <img class="h-13" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1659017734/WhatsApp_Image_2022-07-26_at_12.13.54_AM-removebg-preview_qc1wyf.png" alt="StaticKit" />
                             </div>
 
                         </div>
@@ -267,7 +267,7 @@
                 <div class="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
                     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                         <div class="space-y-8 xl:col-span-1">
-                            <img class="h-10" src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg" alt="Company name" />
+                            <img class="h-10" src="https://res.cloudinary.com/dy6vgsgr8/image/upload/v1659017596/eco_logo_b51rqq.png" alt="Company name" />
                             <p class="text-gray-500 text-base">Making the world a better place through constructing elegant hierarchies.</p>
                             <div class="flex space-x-6">
                                 <a v-for="item in footerNavigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
